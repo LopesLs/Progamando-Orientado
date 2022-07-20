@@ -22,9 +22,9 @@ class Banco:
     def saldo(self, price):
         return self.__saldo == price
 
+if __name__ == '__main__':
+    objeto = Banco(500, 'Carlos')
 
-objeto = Banco(500, 'Carlos')
+    money = objeto.saldo = 200
 
-money = objeto.saldo = 200
-
-print(money)
+    print(money)

@@ -10,5 +10,6 @@ class Fatorial:
         
         return self.fatorial
 
-object = Fatorial(5)
-print(object.calculo_fatorial())
+if __name__ == '__main__':
+    object = Fatorial(5)
+    print(object.calculo_fatorial())

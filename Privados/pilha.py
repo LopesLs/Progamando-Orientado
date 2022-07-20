@@ -58,17 +58,19 @@ class Stack:
             
             return r
 
-pilha = Stack()
 
-pilha.push('Carlos')
-pilha.push(15)
-pilha.push(True)
-pilha.push('Sucesso!')
-pilha.push(1.70)
+if __name__ == '__main__':
+    pilha = Stack()
 
-print(pilha)
+    pilha.push('Carlos')
+    pilha.push(15)
+    pilha.push(True)
+    pilha.push('Sucesso!')
+    pilha.push(1.70)
 
-pilha.pop()
-pilha.pop()
+    print(pilha)
 
-print(pilha.peek())
+    pilha.pop()
+    pilha.pop()
+
+    print(pilha.peek())

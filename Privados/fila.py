@@ -70,14 +70,15 @@ class Queue:
         
         return f'Valores = ({self.first}, {self.last})'
     
-fila = Queue()
+if __name__ == '__main__':
+    fila = Queue()
 
-fila.push(10)
-fila.push(15)
-fila.push(30)
+    fila.push(10)
+    fila.push(15)
+    fila.push(30)
 
-print(fila)
+    print(fila)
 
-print(fila.pop())
+    print(fila.pop())
 
-print(fila.__repr__())
+    print(fila.__repr__())

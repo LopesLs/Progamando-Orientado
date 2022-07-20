@@ -22,5 +22,6 @@ class Fibonnaci:
         
         return '\nAcabou'
 
-obj = Fibonnaci(7)
-print(obj.calcula_sequencia())
+if __name__ == '__main__':
+    obj = Fibonnaci(7)
+    print(obj.calcula_sequencia())
